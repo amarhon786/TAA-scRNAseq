@@ -1,0 +1,26 @@
+# too big for git
+data/raw/
+data/processed/
+
+# local only
+R/07_figure_sex_disease.R
+R/08_export_top_degs.R
+R/theme_nature.R
+
+renv/library/
+renv/python/
+renv/staging/
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# results ignored except the deg xlsx + fig2 pdfs/legends
+results/tables/*
+results/figures/*
+
+!results/tables/degs_*.xlsx
+
+!results/figures/figure2_sex_disease_*.pdf
+!results/figures/figure2_sex_disease_*_legend.md
